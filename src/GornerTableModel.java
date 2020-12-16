@@ -52,7 +52,28 @@ public class GornerTableModel  extends AbstractTableModel {
                 return Math.round(result * scale) / scale;
 
             }
+            case 2: {
 
+                double value=result;
+                value=abs(result);
+                int startRes=(int)value;
+                double  end=value;
+                end-=startRes;
+                double scale = Math.pow(10, 5);
+                end=Math.round(end * scale) / scale;
+                String b= String.valueOf(end);
+                int length=b.length()-2;
+                end*=Math.pow(10,length);
+                end= Math.round(end);
+                int endRes=(int)end;
+
+                if ((startRes%2==0&&endRes%2!=0)||(startRes%2!=0&&endRes%2==0)) {
+                    return true;
+                } else
+                {
+                    return false;
+                }
+            }
 
             default:
             {
@@ -72,7 +93,8 @@ public class GornerTableModel  extends AbstractTableModel {
                 return "Значение Х";
             case(1):
                 return "Значение многочлена";
-
+            case(2):
+                return "Разностороннее";
             default:
                 return "Life is ?";
 
@@ -85,7 +107,8 @@ public class GornerTableModel  extends AbstractTableModel {
                 return Double.class;
             case 1:
                 return Double.class;
-
+            case 2:
+                return Boolean.class;
             default:
                 return String.class;
 
