@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f3a73cfa-f86f-44b5-bbe8-ede3627446ce" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jgXizMy1pe0fQcKC0vKFvGCOFH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MainFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainFrame" />
+      <module name="Lab_3" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;1&quot; &quot;-4&quot; &quot;-4&quot; " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainFrame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606137820300">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606137820300" />
+    <state x="1245" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1605108688166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1245" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605108688166" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606840120600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606840120600" />
+    <state width="1899" height="277" key="GridCell.Tab.0.bottom" timestamp="1606848796355">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606848796355" />
+    <state width="1899" height="277" key="GridCell.Tab.0.center" timestamp="1606848796355">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606848796355" />
+    <state width="1899" height="277" key="GridCell.Tab.0.left" timestamp="1606848796355">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606848796355" />
+    <state width="1899" height="277" key="GridCell.Tab.0.right" timestamp="1606848796355">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606848796355" />
+    <state width="936" height="381" key="GridCell.Tab.1.bottom" timestamp="1605352936458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="381" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605352936458" />
+    <state width="936" height="381" key="GridCell.Tab.1.center" timestamp="1605352936458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="381" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605352936458" />
+    <state width="936" height="381" key="GridCell.Tab.1.left" timestamp="1605352936458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="381" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605352936458" />
+    <state width="936" height="381" key="GridCell.Tab.1.right" timestamp="1605352936458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="381" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605352936458" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1604412045547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604412045547" />
+    <state x="157" y="209" key="new project wizard" timestamp="1607079403424">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="157" y="209" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1607079403424" />
+    <state x="1096" y="244" key="run.anything.popup" timestamp="1605106580643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1096" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605106580643" />
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1605119432326">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605119432326" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="a" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
