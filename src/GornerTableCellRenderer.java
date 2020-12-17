@@ -41,6 +41,81 @@ public class GornerTableCellRenderer  implements TableCellRenderer  {
         String formattedDouble = formatter.format(value);
         // Установить текст надписи равным строковому представлению числа
         label.setText(formattedDouble);
+        String format_digit=formatter.format(value);
+        double digit=Double.parseDouble(format_digit);
+        double val=digit;
+        val=abs(val);
+        boolean flag1=true;
+        boolean flag2=true;
+        int startRes=(int)val;
+        double  end=val;
+        end-=startRes;
+        double scale = Math.pow(10, 5);
+        end=Math.round(end * scale) / scale;
+        String b= String.valueOf(end);
+        int length=b.length()-2;
+        end*=Math.pow(10,length);
+        end= Math.round(end);
+        int endRes=(int)end;
+
+        while (1==1)
+        {
+            if (startRes%2==0)
+            {
+                startRes/=10;
+            }
+            else {
+                flag1=false;
+                break;
+            }
+            if (startRes%10<10)
+            {
+                if (startRes%2==0)
+                {
+                    flag1 =true;
+                    break;
+                }
+                else{ flag1=false;
+                    break;}
+            }
+        }
+        while (1==1)
+        {
+            if (endRes%2==0)
+            {
+                endRes/=10;
+            }
+            else {
+                flag2=false;
+                break;
+            }
+            if (endRes%10<10)
+            {
+                if (endRes%2==0)
+                {
+                    flag2 =true;
+                    break;
+                }
+                else{ flag2=false;
+                    break;}
+            }
+        }
+
+        if (flag1==true&&flag2==true) {
+            this.vis=true;
+        } else
+        {
+            this.vis=false;
+
+        }
+
+        if (this.vis==true) {
+            panel.setBackground(Color.BLACK);
+            label.setForeground(Color.white);
+        } else {
+            panel.setBackground(Color.WHITE);
+            label.setForeground(Color.BLACK);
+        }
 
         if (col==1 && needle!=null && needle.equals(formattedDouble)) {
             // Номер столбца = 1 (т.е. второй столбец) + иголка не null
